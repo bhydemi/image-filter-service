@@ -19,6 +19,23 @@ To complete this project, you will need to:
 
 Successful URL responses should have a 200 code. Ensure that you include error codes for the scenario that someone uploads something other than an image and for other common errors.
 
+## Deployment
+
+### Elastic Beanstalk URL
+```
+http://image-filter-env.eba-attn4s8d.us-east-1.elasticbeanstalk.com
+```
+
+### Test Endpoint
+```
+http://image-filter-env.eba-attn4s8d.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://upload.wikimedia.org/wikipedia/commons/b/bd/Golden_tabby_and_white_kitten_n01.jpg
+```
+
+### GitHub Repository
+```
+https://github.com/bhydemi/image-filter-service
+```
+
 ## License
 
 [License](LICENSE.txt)
